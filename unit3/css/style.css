@@ -1,0 +1,36 @@
+body{
+	background-color: #52596b;
+	background-image: 
+	url("/Users/Marlon/Documents/vanessagermosen.github.io/unit3/images/stripes.png"), 
+	url("/Users/Marlon/Documents/vanessagermosen.github.io/unit3/images/background.jpg");
+	background-repeat: repeat-x, no-repeat;
+	background-size: 800px, 1120px;
+	background-position: top left, top right;
+	margin-top: 220px;
+	margin-left: 160px;	
+}
+
+hr{
+	width: 35px;
+	margin: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	border-color: #fd6e6e;
+}
+
+.wrapper img {
+	width: 200px;
+}
+.logo img {
+	width: 120px;
+}
+
+a{
+}
+
+p{
+	color: white;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 16pt;
+}
