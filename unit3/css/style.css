@@ -1,8 +1,8 @@
 body{
 	background-color: #52596b;
 	background-image: 
-	url("/Users/Marlon/Documents/vanessagermosen.github.io/unit3/images/stripes.png"), 
-	url("/Users/Marlon/Documents/vanessagermosen.github.io/unit3/images/background.jpg");
+	url("images/stripes.png"), 
+	url("images/background.jpg");
 	background-repeat: repeat-x, no-repeat;
 	background-size: 800px, 1120px;
 	background-position: top left, top right;
@@ -21,11 +21,9 @@ hr{
 .wrapper img {
 	width: 200px;
 }
+
 .logo img {
 	width: 120px;
-}
-
-a{
 }
 
 p{
