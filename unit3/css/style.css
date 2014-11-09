@@ -1,8 +1,7 @@
 body{
-	background-color: #52596b;
-	background-image: 
-	url("images/stripes.png"), 
+	background: url("images/stripes.png"), 
 	url("images/background.jpg");
+	background-color: #52596b;
 	background-repeat: repeat-x, no-repeat;
 	background-size: 800px, 1120px;
 	background-position: top left, top right;
@@ -21,9 +20,11 @@ hr{
 .wrapper img {
 	width: 200px;
 }
-
 .logo img {
 	width: 120px;
+}
+
+a{
 }
 
 p{
