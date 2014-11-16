@@ -6,6 +6,7 @@ body{
 	background-position: center top 21%, center top;
 	background-size: 55%, 100%;
 	background-color: #f8f7ee;
+	font-family:'Varela Round', 'sans-serif';
 }
 
 hr{
@@ -19,7 +20,7 @@ hr{
 h1{
 	margin-left: none;
 	text-align: center;
-	font-family:'Varela Round', 'sans-serif';
+	
 	font-size: 18px;
 	color: #3b2216;
 }
