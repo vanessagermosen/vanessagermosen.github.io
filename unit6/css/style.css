@@ -1,0 +1,210 @@
+body{
+	margin: 0;
+	background-color: #f9f5e7;
+	color: #f9f5e7;
+	font-family:'BrandonText-Bold','helvetica-bold';
+	font-size: 18px;
+	min-width: 750px;
+}
+
+h1{
+	padding-left: 20px;
+	margin-top: 1.5px;
+	text-transform: uppercase;
+	font-size: 1.618em;
+}
+p{
+	font-family:'avenir','helvetica';
+}
+a{
+	color: #f9f5e7;
+    text-decoration: none;
+}
+a:hover {
+	display: inline;
+	clear:none;
+    color: #936fb1;
+}
+
+.content{
+	padding-left: 370px;
+	float: left;
+	margin-right: 20px;
+}
+.content2{
+	padding-left: 370px;
+
+}
+#header{
+	background-image: url("images/stripes.png");
+	padding-top: 25px;
+	padding-bottom: 18px;
+}
+.head{
+	display: inline;
+}
+.head img{
+	margin-left: 38%;
+}
+.social1, .social2{
+	display: inline;
+	margin-right: 30px;
+	float: right;	
+ }
+
+.social1 img, .social2 img{
+	width: 23px;
+	background-color: #7d599c;
+ 	border: 8px solid #7d599c;
+ 	border-radius: 10px;
+}
+.social1 img:hover, .social2 img:hover{
+	background-color: #f9f5e7;
+ 	border: 8px solid #f9f5e7;
+
+}
+.kit{
+	background-image: url("images/scallop.png");	
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #7ecdc3;
+	height: 380px;
+	padding-top: 60px;		
+}
+.kit img{
+	position: absolute;
+	left:0px;
+	top: 64px;
+	width: 395px;
+}
+.placeholder-square1, .placeholder-square2{
+	position: absolute;
+	top: 255px;
+    width: 240px;
+    height: 215px;
+ 	color: #f9f5e7;
+ 	font-size: .85em;
+ 	text-align: center;	
+ 		
+ }
+ .placeholder-square1{
+ 	margin-left: 380px;
+
+ }
+ #placeholder-square1{
+
+ }
+ .placeholder-square2{
+	margin-left: 670px;	
+ }
+.shop{
+	background-color: #0db9a1;
+	padding-top: 14px;
+	height: 60px;
+	width: 550px;
+}
+
+.etsy a{
+	position: absolute;
+	top: 598px;
+	left: 575px;
+	
+}
+.fabric{
+	margin-top: 45px;
+	padding-top: 35px;
+	background-color: #fec745;
+	height: 300px;	
+}
+.fabric img{
+	position: absolute;
+	left: -20px;
+	top: 698px;
+	float: left;
+ 	width: 375px;		
+}
+
+.cherry img, .mushroom img, .lemon img{
+	position: absolute;
+	top: 820px;
+    width: 160px;
+    height: 160px;
+ 	border-radius: 80px;	
+
+}
+.cherry{
+	margin-left: 380px;
+}
+.mushroom{
+	margin-left: 570px;	
+}
+.lemon{
+	margin-left: 760px;	
+}
+.shop2{
+	background-color: #faa721;
+	padding-top: 14px;
+	height: 60px;
+	width: 550px;
+}
+.spoonflower a{
+	position: absolute;
+	top: 1041px;
+	margin-left: 575px;
+	
+}
+.art{
+	margin-top: 45px;
+	padding-top: 35px;
+	background-color: #96c93d;
+	height: 300px;	
+}
+.art img{
+	position: absolute;
+	left: 0px;
+	top: 1158px;
+	margin-left: -15px;
+	float: left;
+ 	width: 365px;		
+}
+.mug img, .pillow img, .clock img{
+	position: absolute;
+	top: 1275px;
+    width: 160px;
+    height: 160px;
+ 	border-radius: 30px;	
+}
+.mug{
+	margin-left: 380px;
+}
+.pillow{
+	margin-left: 570px;	
+}
+.clock{
+	margin-left: 760px;	
+}
+.shop3{
+	background-color: #76be43;
+	padding-top: 14px;
+	height: 60px;
+	width: 550px;
+}
+.society6 a{
+	position: absolute;
+	top: 1498px;
+	margin-left: 575px;
+	
+}
+footer{
+	background-image: url("images/stripes.png");
+	margin-top: 45px;
+	font-family:'avenir';
+	text-decoration: none;
+	text-align: center;
+	background-color: #9367b1;
+	padding: 20px;
+}
+
+
+
+
