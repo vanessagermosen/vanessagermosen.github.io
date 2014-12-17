@@ -6,15 +6,18 @@ body{
 	font-size: 18px;
 	min-width: 750px;
 }
-
 h1{
-	padding-left: 20px;
 	margin-top: 1.5px;
+	margin-right: 20px;
+	padding-left: 370px;
 	text-transform: uppercase;
 	font-size: 1.618em;
+	line-height: 1.618em;
+	float: left;	
 }
 p{
 	font-family:'avenir','helvetica';
+	vertical-align: middle;
 }
 a{
 	color: #f9f5e7;
@@ -25,45 +28,36 @@ a:hover {
 	clear:none;
     color: #936fb1;
 }
-
-.content{
-	padding-left: 370px;
-	float: left;
-	margin-right: 20px;
-}
 .content2{
 	padding-left: 370px;
-
 }
-#header{
+header{
 	background-image: url("images/stripes.png");
 	padding-top: 25px;
 	padding-bottom: 18px;
 }
-.head{
+.header{
 	display: inline;
 }
-.head img{
+.header img{
 	margin-left: 38%;
 }
-.social1, .social2{
+.social{
 	display: inline;
 	margin-right: 30px;
 	float: right;	
  }
-
-.social1 img, .social2 img{
+.social img{
 	width: 23px;
 	background-color: #7d599c;
  	border: 8px solid #7d599c;
  	border-radius: 10px;
 }
-.social1 img:hover, .social2 img:hover{
+.social img:hover{
 	background-color: #f9f5e7;
  	border: 8px solid #f9f5e7;
-
 }
-.kit{
+#kit{
 	background-image: url("images/scallop.png");	
 	background-position: top;
 	background-repeat: repeat-x;
@@ -71,44 +65,53 @@ a:hover {
 	height: 380px;
 	padding-top: 60px;		
 }
-.kit img{
+#kit img{
 	position: absolute;
 	left:0px;
 	top: 64px;
 	width: 395px;
 }
-.placeholder-square1, .placeholder-square2{
+.square1, .square2{
 	position: absolute;
-	top: 255px;
+	top: 265px;
     width: 240px;
     height: 215px;
  	color: #f9f5e7;
  	font-size: .85em;
- 	text-align: center;	
- 		
+ 	text-align: center;
+ 	margin-left: 410px, 690px;			
  }
- .placeholder-square1{
- 	margin-left: 380px;
-
+.square1{
+ 	margin-left: 410px;
  }
- #placeholder-square1{
-
+.square2{
+	margin-left: 690px;	
  }
- .placeholder-square2{
-	margin-left: 670px;	
- }
+ .shop h1, .shop2 h1, .shop3 h1{
+	padding-left: 25px;
+}
 .shop{
 	background-color: #0db9a1;
 	padding-top: 14px;
 	height: 60px;
 	width: 550px;
 }
-
+.shop2{
+	background-color: #faa721;
+	padding-top: 14px;
+	height: 60px;
+	width: 550px;
+}
+.shop3{
+	background-color: #76be43;
+	padding-top: 14px;
+	height: 60px;
+	width: 550px;
+}
 .etsy a{
 	position: absolute;
 	top: 598px;
-	left: 575px;
-	
+	left: 575px;	
 }
 .fabric{
 	margin-top: 45px;
@@ -123,14 +126,12 @@ a:hover {
 	float: left;
  	width: 375px;		
 }
-
 .cherry img, .mushroom img, .lemon img{
 	position: absolute;
 	top: 820px;
     width: 160px;
     height: 160px;
  	border-radius: 80px;	
-
 }
 .cherry{
 	margin-left: 380px;
@@ -141,17 +142,10 @@ a:hover {
 .lemon{
 	margin-left: 760px;	
 }
-.shop2{
-	background-color: #faa721;
-	padding-top: 14px;
-	height: 60px;
-	width: 550px;
-}
 .spoonflower a{
 	position: absolute;
 	top: 1041px;
-	margin-left: 575px;
-	
+	margin-left: 25px;	
 }
 .art{
 	margin-top: 45px;
@@ -183,17 +177,10 @@ a:hover {
 .clock{
 	margin-left: 760px;	
 }
-.shop3{
-	background-color: #76be43;
-	padding-top: 14px;
-	height: 60px;
-	width: 550px;
-}
 .society6 a{
 	position: absolute;
 	top: 1498px;
-	margin-left: 575px;
-	
+	margin-left: 25px;	
 }
 footer{
 	background-image: url("images/stripes.png");
@@ -203,6 +190,14 @@ footer{
 	text-align: center;
 	background-color: #9367b1;
 	padding: 20px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
 
 
