@@ -87,43 +87,38 @@ header{
 .square2{
 	margin-left: 690px;	
  }
- .shop h1, .shop2 h1, .shop3 h1{
+.shop1 h1, .shop2 h1, .shop3 h1{
 	padding-left: 25px;
 }
-.shop{
-	background-color: #0db9a1;
+.shop1, .shop2, .shop3{
 	padding-top: 14px;
 	height: 60px;
 	width: 550px;
 }
+.shop1{
+	background-color: #0db9a1;
+}
 .shop2{
-	background-color: #faa721;
-	padding-top: 14px;
-	height: 60px;
-	width: 550px;
+	background-color: #faa721;	
 }
 .shop3{
 	background-color: #76be43;
-	padding-top: 14px;
-	height: 60px;
-	width: 550px;
 }
 .etsy a{
 	position: absolute;
 	top: 598px;
 	left: 575px;	
 }
-.fabric{
+#fabric{
 	margin-top: 45px;
 	padding-top: 35px;
 	background-color: #fec745;
 	height: 300px;	
 }
-.fabric img{
+#fabric img{
 	position: absolute;
 	left: -20px;
 	top: 698px;
-	float: left;
  	width: 375px;		
 }
 .cherry img, .mushroom img, .lemon img{
@@ -147,13 +142,13 @@ header{
 	top: 1041px;
 	margin-left: 25px;	
 }
-.art{
+#art{
 	margin-top: 45px;
 	padding-top: 35px;
 	background-color: #96c93d;
 	height: 300px;	
 }
-.art img{
+#art img{
 	position: absolute;
 	left: 0px;
 	top: 1158px;
