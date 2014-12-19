@@ -28,9 +28,7 @@ a:hover {
 	clear:none;
     color: #936fb1;
 }
-.content2{
-	padding-left: 370px;
-}
+
 header{
 	background-image: url("images/stripes.png");
 	padding-top: 25px;
@@ -87,23 +85,23 @@ header{
 .square2{
 	margin-left: 690px;	
  }
-.shop1 h1, .shop2 h1, .shop3 h1{
-	padding-left: 25px;
-}
-.shop1, .shop2, .shop3{
+
+.shop1,.shop2,.shop3{
 	padding-top: 14px;
 	height: 60px;
-	width: 550px;
+	width: 530px;	 	
 }
 .shop1{
 	background-color: #0db9a1;
 }
+
 .shop2{
-	background-color: #faa721;	
+	background-color: #faa721;
 }
 .shop3{
 	background-color: #76be43;
 }
+
 .etsy a{
 	position: absolute;
 	top: 598px;
