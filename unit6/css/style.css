@@ -21,12 +21,11 @@ p{
 }
 a{
 	color: #f9f5e7;
-    text-decoration: none;
+   
 }
 a:hover {
-	display: inline;
-	clear:none;
-    color: #936fb1;
+	color: white;
+	font-size: 1.05em;  
 }
 
 header{
@@ -47,18 +46,19 @@ header{
  }
 .social img{
 	width: 23px;
-	background-color: #7d599c;
- 	border: 8px solid #7d599c;
+	background-color: #bc9cc6;
+ 	border: 7px solid #bc9cc6;
  	border-radius: 10px;
 }
 .social img:hover{
 	background-color: #f9f5e7;
- 	border: 8px solid #f9f5e7;
+ 	border: 7px solid #f9f5e7;
 }
 #kit{
 	background-image: url("images/scallop.png");	
 	background-position: top;
 	background-repeat: repeat-x;
+	background-size: 6vh;
 	background-color: #7ecdc3;
 	height: 380px;
 	padding-top: 60px;		
@@ -66,8 +66,8 @@ header{
 #kit img{
 	position: absolute;
 	left:0px;
-	top: 64px;
-	width: 395px;
+	top: 124px;
+	width: 355px;
 }
 .square1, .square2{
 	position: absolute;
@@ -80,7 +80,7 @@ header{
  	margin-left: 410px, 690px;			
  }
 .square1{
- 	margin-left: 410px;
+ 	margin-left: 370px;
  }
 .square2{
 	margin-left: 690px;	
@@ -89,7 +89,7 @@ header{
 .shop1,.shop2,.shop3{
 	padding-top: 14px;
 	height: 60px;
-	width: 530px;	 	
+	width: 100%;	 	
 }
 .shop1{
 	background-color: #0db9a1;
@@ -103,10 +103,26 @@ header{
 }
 
 .etsy a{
+	background-color: #7ecdc3;
+	padding-left: 50px;
+	padding-right: 50px;
+ 	border: 12px solid #7ecdc3;
 	position: absolute;
-	top: 598px;
-	left: 575px;	
+	top: 579px;
+	margin-left: 7px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+		
 }
+
+.etsy a:hover {
+	background-color: #0db9a1;
+	padding: 5px solid #0db9a1;
+
+
+}
+
 #fabric{
 	margin-top: 45px;
 	padding-top: 35px;
@@ -136,10 +152,22 @@ header{
 	margin-left: 760px;	
 }
 .spoonflower a{
+	background-color: #fec745;
+	padding-left: 20px;
+	padding-right: 20px;
+ 	border: 9px solid #fec745;
 	position: absolute;
-	top: 1041px;
-	margin-left: 25px;	
+	top: 1033px;
+	margin-left: 7px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;	
 }
+
+.spoonflower a:hover {
+	background-color: #faa721;
+	padding: 10px solid #faa721;  
+}
+
 #art{
 	margin-top: 45px;
 	padding-top: 35px;
@@ -171,9 +199,20 @@ header{
 	margin-left: 760px;	
 }
 .society6 a{
+	background-color: #96c93d;
+	padding-left: 20px;
+	padding-right: 20px;
+ 	border: 9px solid #96c93d;
 	position: absolute;
-	top: 1498px;
-	margin-left: 25px;	
+	top: 1487px;
+	margin-left: 7px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;	
+}
+
+.society6 a:hover {
+	background-color: #76be43;
+	padding: 10px solid #76be43;  
 }
 footer{
 	background-image: url("images/stripes.png");
