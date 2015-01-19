@@ -227,7 +227,7 @@ footer{
   height: 0;
   font-size: 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
 
 .header img{
 	margin-left: 16%;
