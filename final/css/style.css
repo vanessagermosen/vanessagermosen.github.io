@@ -13,9 +13,8 @@ h2{
 	text-transform: uppercase;
 	font-size: 1.618em;
 	line-height: 1.618em;
-	float: left;	
+	float: left;
 }
-
 h1{
 	margin-top: 1.5px;
 	margin-right: 30px;
@@ -51,7 +50,7 @@ header{
 	display: inline;
 	margin-right: 30px;
 	float: right;	
- }
+}
 .social img{
 	width: 23px;
 	background-color: #bc9cc6;
@@ -62,9 +61,6 @@ header{
 	background-color: #f9f5e7;
  	border: 7px solid #f9f5e7;
 }
-
-
-
 #kitmain {
 	background-image: url("images/scallop.png");	
 	background-position: top;
@@ -77,14 +73,13 @@ header{
 	left:0px;
 	top: 100px;
 	width: 369px;
-	}
 
+	}
 #container1 {
   display: block;
   vertical-align: middle;
   padding-top: 65px; 
 }
-
 #container2 {
   display: block;
   vertical-align: middle;
@@ -96,24 +91,136 @@ header{
   padding-top: 50px; 
 }
 
+#center-div { 
+float:left; 
+width:100% 
+} 
 
-
-
-
-
-/* .thumbnail1 img{
-display:block;
-float:left;
-padding-left: 90px;
-margin-top: 230px;
+.square1 {
+	background-image: url("images/instructions.png");
+	background-repeat: no-repeat;
+	background-size: 300px;
+    width: 300px; 
+    height: 300px;
+    clear: both;
+    display:inline-block; 
+    text-align: center; 
+    margin-left: -180px;
+    margin-right: 40px;
+    padding-top: 260px;
 }
-.thumbnail2 img{
-float:left;
-clear: both;
-margin-left: 450px;
-margin-top: 230px;
 
-}*/
+.square2 {
+	background-image: url("images/variations.png");
+	background-repeat: no-repeat;
+	background-size: 265px;
+    width: 300px; 
+    height: 300px; 
+    clear: both;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-top: 260px;    
+}
+
+
+.circle1 {
+	background-image: url("images/fabrichearts.png");
+	background-repeat: no-repeat;
+	background-size: 170px;
+    width: 170px; 
+    height: 170px;
+    display:inline-block; 
+    margin-left: -150px;
+    margin-right: 40px;
+    margin-top: 25px;
+    border-radius: 85px;
+}
+
+.circle2 {
+	background-image: url("images/fabricmushrooms.png");
+	background-repeat: no-repeat;
+	background-size: 170px;
+    width: 170px; 
+    height: 170px; 
+    display: inline-block;
+    margin-right: 40px;
+    border-radius: 85px;  
+}
+
+.circle3 {
+	background-image: url("images/fabriclemons.png");
+	background-repeat: no-repeat;
+	background-size: 170px;
+    width: 170px; 
+    height: 170px; 
+    display: inline-block;
+    border-radius: 85px;  
+}
+
+.circle4 {
+	background-image: url("images/S6pmug.jpg");
+	background-repeat: no-repeat;
+	background-size: 170px;
+    width: 170px; 
+    height: 170px;
+    display:inline-block; 
+    margin-left: -220px;
+    margin-right: 40px;
+    margin-top: 25px;
+    border-radius: 35px;
+}
+
+.circle5 {
+	background-image: url("images/S6pillow.jpg");
+	background-repeat: no-repeat;
+	background-size: 170px;
+    width: 170px; 
+    height: 170px; 
+    display: inline-block;
+    margin-right: 40px;
+    border-radius: 35px;  
+}
+
+.circle6 {
+	background-image: url("images/S6clock.jpg");
+	background-repeat: no-repeat;
+	background-size: 170px;
+    width: 170px; 
+    height: 170px; 
+    display: inline-block;
+    border-radius: 35px;  
+}
+
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+
+
+
+/* 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+
+
+
+
+*/
 
 .etsy a{
 	background-color: #7ecdc3;
@@ -135,7 +242,6 @@ margin-top: 230px;
 	height: 60px;
 	background-color: #0db9a1;
 }
-
 .fabric{
 	margin-top: 45px;
 	background-color: #fec745;
@@ -152,7 +258,6 @@ margin-top: 230px;
 	height: 60px;
 	background-color: #faa721;
 }
-
 .spoonflower a{
 	background-color: #fec745;
 	padding-left: 20px;
@@ -164,18 +269,15 @@ margin-top: 230px;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;	
 }
-
 .spoonflower a:hover {
 	background-color: #faa721;
 	padding: 10px solid #faa721;  
 }
-
 .shop3{
 	padding-top: 11px;
 	height: 60px;
 	background-color: #76be43;
 }
-
 .art{
 	margin-top: 45px;
 	background-color: #96c93d;
@@ -189,7 +291,6 @@ margin-top: 230px;
 	float: left;
  	width: 365px;		
 }
-
 #art2 img{
 	display: none;		
 }
@@ -218,30 +319,19 @@ footer{
 	padding: 20px;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
-
 /* IPAD */
 
- @media screen and (max-width: 850px) {
+ @media screen and (max-width: 1007px) {
 
  body{
  	min-width: 501px;
- }
-
-h1{
+}
+h1, .circle1, .circle2, .circle3, .circle4, .circle5, .circle6{
  	display: none;
- }
-
+}
  p{
  	padding-right:30px; 
- }
+}
 .header img{
 	margin-left: 32%;
 	}
@@ -251,57 +341,53 @@ h2{
 	padding-top: 5px;
 	vertical-align: middle;
 }
-
- .etsy a{
+.etsy a{
  	padding: 40px 90px;
  	top: 350px;
  	margin-left: 410px;
  	border: 2px solid #f9f5e7;
  	border-radius: 10px;	
- }
- .spoonflower a{
+}
+.spoonflower a{
  	padding:40px 53px;
  	top: 850px;
  	margin-left: 410px;
  	border: 2px solid #f9f5e7;
  	border-radius: 10px;
- }
- .society6 a{
+}
+.society6 a{
  	padding: 40px 44px;
  	top: 1305px;
  	margin-left: 410px;
  	border: 2px solid #f9f5e7;
  	border-radius: 10px;
- }
-
+}
 #art2 img{
 	display: none;		
 }
 
+.square1, .square2{
+display: none;
+}
 
 /* IPHONE */
 
 @media screen and (max-width: 700px) {
 
-
- h2{
-	padding-left: 250px;
+h2{
+	padding-left: 265px;
 }
-
 h1, p{
  	display: none;
- }
-
+}
 .header img{
 	margin-left: 22%;
-	}
-
+}
  .shop1, .shop2, .shop3{
 	padding-top: 11px;
 	height: 0px;
 	background-color: #f9f5e7;
 }
-
 #kitmain {
 	background-image: url("images/scallop.png");	
 	background-position: top;
@@ -315,18 +401,15 @@ h1, p{
 	top: 100px;
 	width: 261px;
 }
-
 .etsy a{
- 	padding: 20px 50px;
+ 	padding: 20px 35px;
  	top: 325px;
- 	margin-left: 230px;
- 
+ 	margin-left: 260px;
  }
 .fabric{
 	height: 320px;	
 }
 .fabric img{
-	
 	left: -80px;
 	top: 545px;
  	width: 300px;		
@@ -335,13 +418,10 @@ h1, p{
  	padding:20px 15px;
  	top: 700px;
  	margin-left: 230px;
-
- }
-
+}
 .art{
 	height: 320px;	
 }
-
 #art1 img{
 	display: none;		
 }
@@ -353,15 +433,15 @@ h1, p{
  	width: 250px;
  	float: left;		
 }
-
-
-
  .society6 a{
- 	padding: 20px 15px;
+ 	padding: 20px 35px;
  	top: 1070px;
  	margin-left: 230px;
-
  }
+
+.square1, .square2{
+display: none;
+}
 
 
 
