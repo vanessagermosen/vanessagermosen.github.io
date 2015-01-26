@@ -63,36 +63,43 @@ header{
  	border: 7px solid #f9f5e7;
 }
 
-section {
-  width: 100%;
-  }
 
-#kit {
+
+#kitmain {
 	background-image: url("images/scallop.png");	
 	background-position: top;
 	background-repeat: repeat-x;
   	height: 440px;
   	background-color: #7ecdc3;
 }
-#kit img{
+#kitmain img{
 	position: absolute;
 	left:0px;
 	top: 100px;
 	width: 369px;
 	}
 
-.container {
+#container1 {
   display: block;
   vertical-align: middle;
-  padding-top: 65px;
+  padding-top: 65px; 
 }
-.center {
-    margin-left: 320px;
-	margin-top: 230px;
-    width: 70%;
 
-    
+#container2 {
+  display: block;
+  vertical-align: middle;
+  padding-top: 50px; 
 }
+#container3 {
+  display: block;
+  vertical-align: middle;
+  padding-top: 50px; 
+}
+
+
+
+
+
 
 /* .thumbnail1 img{
 display:block;
@@ -174,13 +181,17 @@ margin-top: 230px;
 	background-color: #96c93d;
 	height: 340px;	
 }
-.art img{
+#art1 img{
 	position: absolute;
 	left: 0px;
 	top: 1161px;
-	margin-left: -15px;
+	margin-left: -35px;
 	float: left;
  	width: 365px;		
+}
+
+#art2 img{
+	display: none;		
 }
 .society6 a{
 	background-color: #96c93d;
@@ -206,6 +217,7 @@ footer{
 	background-color: #9367b1;
 	padding: 20px;
 }
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -215,7 +227,13 @@ footer{
   font-size: 0;
 }
 
+/* IPAD */
+
  @media screen and (max-width: 850px) {
+
+ body{
+ 	min-width: 501px;
+ }
 
 h1{
  	display: none;
@@ -256,17 +274,21 @@ h2{
  	border-radius: 10px;
  }
 
- .art img{
-	margin-left: -35px;
-		
+#art2 img{
+	display: none;		
 }
-footer{
-	text-align: center;
-} 
 
 
+/* IPHONE */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
+
+body{
+ 	min-width: 320px;
+ }
+ h2{
+	padding-left: 250px;
+}
 
 h1, p{
  	display: none;
@@ -275,23 +297,21 @@ h1, p{
 .header img{
 	margin-left: 22%;
 	}
-h2{
-	padding-left: 250px;
-}
+
  .shop1, .shop2, .shop3{
 	padding-top: 11px;
 	height: 0px;
 	background-color: #f9f5e7;
 }
 
-#kit {
+#kitmain {
 	background-image: url("images/scallop.png");	
 	background-position: top;
 	background-repeat: repeat-x;
   	height: 350px;
   	background-color: #7ecdc3;
 }
-#kit img{
+#kitmain img{
 	margin-left: -18px;
 	left:0px;
 	top: 100px;
@@ -321,14 +341,23 @@ h2{
  }
 
 .art{
-
 	height: 320px;	
 }
-.art img{
-	margin-left: -25px;
-	top: 896px;
- 	width: 270px;		
+
+#art1 img{
+	display: none;		
 }
+#art2 img{
+	position: absolute;
+	display: block;
+	margin-left: -25px;
+	top: 922px;
+ 	width: 250px;
+ 	float: left;		
+}
+
+
+
  .society6 a{
  	padding: 20px 15px;
  	top: 1070px;
@@ -338,10 +367,6 @@ h2{
 
 
 
-
-footer{
-	text-align: center;
-} 
 
 
 
