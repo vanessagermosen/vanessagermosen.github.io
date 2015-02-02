@@ -35,6 +35,8 @@ a:hover {
 	color: white;
 	font-size: 1.05em;  
 }
+
+
 header{
 	background-image: url("images/stripes.png");
 	padding-top: 25px;
@@ -100,15 +102,31 @@ width:100%
 	background-image: url("images/instructions.png");
 	background-repeat: no-repeat;
 	background-size: 300px;
-    width: 300px; 
-    height: 300px;
-    clear: both;
-    display:inline-block; 
-    text-align: center; 
-    margin-left: -180px;
-    margin-right: 40px;
-    padding-top: 260px;
+	background-position: bottom;
+	float:left;
+	clear: none;
+	width: 300px;
+	height: 300px;
+	margin-left: -180px;
+	margin-top: -25px;
+	text-align: center;
 }
+.square1 p{
+
+    margin-top: 300px;
+
+
+}
+
+
+
+   /* width: 300px; 
+    height: 300px;
+    display:inline-block; 
+  
+    margin-right: 40px;
+    padding-top: 260px;*/
+
 
 .square2 {
 	background-image: url("images/variations.png");
